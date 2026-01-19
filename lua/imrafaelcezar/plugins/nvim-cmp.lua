@@ -42,6 +42,10 @@ return {
           ellipsis_char = "...",
         }),
       },
+      window = {
+        completion = cmp.config.window.bordered({ max_height = 16 }),
+        documentation = cmp.config.window.bordered({ max_height = 16 }),
+      },
     })
   end,
 }
